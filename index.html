@@ -3,106 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Pantane Dev</title>
-
-<link rel="stylesheet" href="style.css">
+<title>Pantane Dev | Modern Dark Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
+<!-- Floating shapes -->
+<div class="floating-shape shape1"></div>
+<div class="floating-shape shape2"></div>
+<div class="floating-shape shape3"></div>
+
 <header>
-
-<div class="logo">Pantane Dev</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">Contact</a>
-</nav>
-
+  <div class="logo">Pantane Dev</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section class="hero">
-
-<div class="hero-left">
-
-<h1>
-We <span>Create</span><br>
-Websites
-</h1>
-
-<p>
-Modern websites for individuals and businesses.
-Fast, secure and beautifully designed.
-</p>
-
-<div class="buttons">
-
-<a class="btn-primary" href="https://wa.me/254740312402">
-Contact Me
-</a>
-
-<a class="btn-secondary" href="tel:+254740312402">
-Call Me
-</a>
-
-</div>
-
-<div class="contact">
-
-<p>WhatsApp / Call</p>
-<h3>+254740312402</h3>
-<p>pantane254@gmail.com</p>
-
-</div>
-
-</div>
-
-
-<div class="hero-right">
-
-<img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="coding">
-
-</div>
-
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <h1>We <span>Create</span><br>Websites & Web Apps</h1>
+    <p>Modern, secure, and beautifully designed websites for businesses and individuals.</p>
+    <div class="buttons">
+      <a class="btn-primary" href="https://wa.me/254740312402">Chat on WhatsApp</a>
+      <a class="btn-secondary" href="tel:+254740312402">Call Me</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="assets/placeholder.png" alt="Coding Screen">
+  </div>
 </section>
 
-
-<section class="services">
-
-<h2>My Services</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Website Development</h3>
-<p>Modern responsive websites for business and personal brands.</p>
-</div>
-
-<div class="card">
-<h3>Web Apps</h3>
-<p>Custom systems like dashboards, automation tools and APIs.</p>
-</div>
-
-<div class="card">
-<h3>AI Integrations</h3>
-<p>Smart solutions using AI for automation and productivity.</p>
-</div>
-
-</div>
-
+<!-- Services Section -->
+<section class="services" id="services">
+  <h2>My Services</h2>
+  <div class="cards">
+    <div class="card"> <h3>Web Development</h3> <p>Responsive websites with modern designs.</p> </div>
+    <div class="card"> <h3>Web Apps</h3> <p>Custom systems, dashboards, and automation tools.</p> </div>
+    <div class="card"> <h3>AI Integration</h3> <p>Smart automation using AI & APIs.</p> </div>
+  </div>
 </section>
 
+<!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item"><img src="assets/placeholder.png" alt="Project 1"></div>
+    <div class="portfolio-item"><img src="assets/placeholder.png" alt="Project 2"></div>
+    <div class="portfolio-item"><img src="assets/placeholder.png" alt="Project 3"></div>
+    <div class="portfolio-item"><img src="assets/placeholder.png" alt="Project 4"></div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+  <h2>Client Testimonials</h2>
+  <div class="testimonial-cards">
+    <div class="testimonial-card">
+      <p>"Pantane Dev created an amazing website for my business. Highly recommended!"</p>
+      <h4>- Client A</h4>
+    </div>
+    <div class="testimonial-card">
+      <p>"Professional, fast, and creative. Loved working with Pantane Dev."</p>
+      <h4>- Client B</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>Call, Text, or WhatsApp</p>
+  <h3>+254740312402</h3>
+  <p>pantane254@gmail.com</p>
+  <a class="btn-primary" href="https://wa.me/254740312402">Chat on WhatsApp</a>
+</section>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/254740312402" class="whatsapp-float" target="_blank">💬</a>
 
 <footer>
-
-<p>© 2026 Pantane Dev | Built with passion</p>
-
+  <p>© 2026 Pantane Dev | Built with Passion</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
-  </html>
+</html>
